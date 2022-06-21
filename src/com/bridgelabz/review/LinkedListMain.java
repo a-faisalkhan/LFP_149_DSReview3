@@ -4,18 +4,18 @@ public class LinkedListMain {
 
 	public static void main(String args[]) {
 
-		LinkedList<Integer> LinkedList = new LinkedList<>();
+		LinkedList<Integer> linkedList = new LinkedList<>();
 
 		System.out.println("Append list is: ");
-		LinkedList.add(56);
-		LinkedList.add(30);
-		LinkedList.add(70);
-		LinkedList.print();
+		linkedList.add(56);
+		linkedList.add(30);
+		linkedList.add(70);
+		linkedList.print();
 
-		int deletedData = LinkedList.pop();
+		int deletedData = linkedList.pop();
 		System.out.println();
 		System.out.println("popped head element is: " + deletedData);
-		LinkedList.print();
+		linkedList.print();
 	}
 
 }
