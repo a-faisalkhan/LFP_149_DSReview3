@@ -12,6 +12,10 @@ public class LinkedListMain {
 		LinkedList.add(70);
 		LinkedList.print();
 
+		int deletedData = LinkedList.pop();
+		System.out.println();
+		System.out.println("popped head element is: " + deletedData);
+		LinkedList.print();
 	}
 
 }
